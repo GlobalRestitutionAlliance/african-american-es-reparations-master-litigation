@@ -31,6 +31,24 @@
 | 2026-11-22 | UK_National_Archives_-_Slavery.html | https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/slavery-or-slave-owners/ | OpenCode/harvest | 8b68ac9c5d1d45a33c711ba336c6c5a674de6a7b231f1ed35915eca71aaa7f6e | PUBLIC_CAPTURE_UNAUTHENTICATED | status=200 bytes=66425 |
 | 2026-11-22 | Library of Congress - Slavery Resources | https://guides.loc.gov/slavery | OpenCode/harvest | N/A | CAPTURE_FAILED | HTTP Error 404: Not Found |
 
+| 2026-11-22 | HathiTrust_Digital_Library_browser.html | https://babel.hathitrust.org/ | OpenCode/browser-fallback | 97d0fa47f0ba54b16499b9f3032dbbdd520b720c2d632fe8180837d11b6e004f | PUBLIC_CAPTURE_UNAUTHENTICATED | browser-fallback http_status=unknown_browser_outerhtml_capture bytes=60066 final_url=https://babel.hathitrust.org/cgi/mb |
+
+| 2026-11-22 | Chronicling_America_LOC_browser.html | https://chroniclingamerica.loc.gov/ | OpenCode/browser-fallback | 278136037714ce8fdd265e34218ee915842e5e47a44dd74f1aabf198ff14d2bd | PUBLIC_CAPTURE_UNAUTHENTICATED | browser-fallback http_status=unknown_browser_outerhtml_capture bytes=60000 final_url=https://www.loc.gov/collections/chronicling-america/ |
+
+| 2026-11-22 | UN_Digital_Library_browser.html | https://digitallibrary.un.org/ | OpenCode/browser-fallback | 630526479d94fee99f80654e69d584582c8107033e4970c01e84c70583c37989 | PUBLIC_CAPTURE_UNAUTHENTICATED | browser-fallback http_status=unknown_browser_outerhtml_capture bytes=26733 final_url=https://digitallibrary.un.org/ |
+
+| 2026-11-22 | Justia_browser.html | https://www.justia.com/ | OpenCode/browser-fallback | c18c7cbdb3e25684176911dd379dcf824ae4637a2fe64961afb2d9054f6bfb89 | PUBLIC_CAPTURE_UNAUTHENTICATED | browser-fallback http_status=unknown_browser_outerhtml_capture bytes=60027 final_url=https://www.justia.com/ |
+
+| 2026-11-22 | CourtListener_browser.html | https://www.courtlistener.com/ | OpenCode/browser-fallback | 4cd2eb67c8a05d7fd93a366797e8a70ce8c0692d2498e5a55aa8e6581b472665 | PUBLIC_CAPTURE_UNAUTHENTICATED | browser-fallback http_status=unknown_browser_outerhtml_capture bytes=52213 final_url=https://www.courtlistener.com/ |
+
+| 2026-11-22 | UN_OHCHR_browser.html | https://www.ohchr.org/ | OpenCode/browser-fallback | 1aad03b67566e68e5921b9160d890c8d846e994e01760ac7ff76c64e60560dd3 | PUBLIC_CAPTURE_UNAUTHENTICATED | browser-fallback http_status=unknown_browser_outerhtml_capture bytes=60020 final_url=https://www.ohchr.org/en/ohchr_homepage |
+
+| 2026-11-22 | Archivo_General_de_Indias_portal_browser.html | https://www.culturaydeporte.gob.es/cultura/areas/archivos/mc/archivos/agi/portada.html | OpenCode/browser-fallback | 1b1d3458df71c60e96ebfe5bbbe5e5d60be39ae7ddf8ec466f3342083b310faa | PUBLIC_CAPTURE_UNAUTHENTICATED | browser-fallback http_status=unknown_browser_outerhtml_capture bytes=60155 final_url=https://www.cultura.gob.es/cultura/areas/archivos/mc/archivos/agi/portada.html |
+
+| 2026-11-22 | World_Bank_Spain_browser.html | https://data.worldbank.org/country/spain | OpenCode/browser-fallback | 7fc4fb3e38c7e64bdc4c29b8b2d4e5bd00e6bdc62bdd4674d9ad08f54b510320 | PUBLIC_CAPTURE_UNAUTHENTICATED | browser-fallback http_status=unknown_browser_outerhtml_capture bytes=60013 final_url=https://data.worldbank.org/country/spain |
+
+| 2026-11-22 | UNESCO_Slave_Route_browser.html | https://www.unesco.org/en/routes-enslaved-peoples | OpenCode/browser-fallback | 80b963146efd2173fb5ffaccd64f023c6e35219a88da720a14b582dd1e28ad1f | PUBLIC_CAPTURE_UNAUTHENTICATED | browser-fallback http_status=unknown_browser_outerhtml_capture bytes=60014 final_url=https://www.unesco.org/en/routes-enslaved-peoples |
+
 ## Intake Rules
 - No `VERIFIED` status without local hashed source artifact and human sign-off.
 - Captures are `PUBLIC_CAPTURE_UNAUTHENTICATED` until custodian/legal authentication.
